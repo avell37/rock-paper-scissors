@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body {
+    background: linear-gradient(21deg, #dd03e4, #5611ec);
+    height: 100vh;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+.wrapper {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.statistics {
+    margin-top: 40px;
+    width: 300px;
+    height: 100px;
+    opacity: .9;
+    border-radius: 10px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.player-score,
+.bot-score {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.game {
+    margin-top: 5px;
+    padding: 10px;
+    width: 300px;
+    height: 480px;
+    border-radius: 10px;
+    background-color: #fff;
+    opacity: .9;
+    text-align: center;
+}
+
+.game > span {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.player-choice-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.playGame {
+    width: 150px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: 600;
+    background-color: #e0e0e0;
+}
+
+.player-btn,
+.playGame {
+    cursor: pointer;
+}
+
+.player-btn:hover,
+.player-btn:focus {
+    background-color: #e9e8e8;
+    border: 1px solid black;
+}
+
+.playGame:hover {
+    background-color: #eeeeee;
+}
+
+.player-btn,
+.bot-btn-result,
+.player-btn-result {
+    width: 80px;
+    height: 70px;
+    border-radius: 30%;
+    font-size: 25px;
+    border: 1px solid gray;
+    background-color: white;
+}
+
+.game-result {
+    margin-top: 20px;
+}
+
+.bot-choice,
+.player-choice {
+    display: flex;
+    align-items: center;
+}
+
+.bot-choice > span,
+.player-choice > span {
+    margin-right: 15px;
+}
+
+.player-choice {
+    margin-top: 5px;
+}
+
+.resultGame {
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.reset-button {
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+    border: 1px solid #fff;
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
